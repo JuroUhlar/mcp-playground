@@ -1,0 +1,31 @@
+{
+  "name": "fp-server-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "fp-server-api": "./build/index.js"
+  },
+  "scripts": {
+    "build": "tsc && chmod 755 build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "build"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@fingerprintjs/fingerprintjs-pro-server-api": "^6.5.0",
+    "@modelcontextprotocol/sdk": "^1.9.0",
+    "js-yaml": "^4.1.0",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/js-yaml": "^4.0.9",
+    "@types/node": "^22.14.1",
+    "typescript": "^5.8.3"
+  }
+}

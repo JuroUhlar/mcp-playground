@@ -1,0 +1,20 @@
+{
+  "mcpServers": {
+    "weather": {
+      "command": "node",
+      "args": [
+        "./weather/build/index.js"
+      ]
+    },
+    "fingerprint-server-api": {
+      "command": "node",
+      "args": [
+        "./fingerprint-server-api/build/index.js"
+      ],
+      "env": {
+        "FINGERPRINT_SERVER_API_KEY": "YOUR_API_KEY",
+        "FINGERPRINT_SERVER_API_REGION": "YOUR_REGION"
+      }
+    }
+  }
+}
